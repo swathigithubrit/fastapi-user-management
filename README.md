@@ -63,8 +63,10 @@ Database
 - Uses SQLite file `.users.db` 
 - Tables created automatically using:
 
-```python
+python
 SQLModel.metadata.create_all(engine)
+
+
 
 Features
 
